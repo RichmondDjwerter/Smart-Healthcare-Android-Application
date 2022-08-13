@@ -1,0 +1,5 @@
+<resources>
+    <style name="ButtonStlye123" parent="android:style/Widget.Button">
+        <item name="android:background">@color/black</item>
+    </style>
+</resources>

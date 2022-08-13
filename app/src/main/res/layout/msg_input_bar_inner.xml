@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inputs_inner_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <EditText
+        android:id="@+id/inputSymptoms"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_weight="1"
+        android:autofillHints="Type Your symptoms..."
+        android:ems="30"
+        android:hint="@string/type_your_symptoms"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:maxLines="6"
+        android:minLines="2"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/sendSymptoms"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="2dp"
+        android:background="@drawable/send_message"
+        android:gravity="end"
+        android:onClick="sendSymptomsOnClick" />
+
+</LinearLayout>

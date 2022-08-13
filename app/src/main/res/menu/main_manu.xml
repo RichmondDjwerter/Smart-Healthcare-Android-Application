@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/menu_icon"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/search_icon"
+            android:title="@string/Search" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/category_icon"
+            android:title="@string/cart" />
+        <item
+            android:id="@+id/nav_update"
+            android:icon="@drawable/add_icon"
+            android:title="@string/update_dashboard" />
+        <item
+            android:id="@+id/nav_bmi"
+            android:icon="@drawable/calculate_icon"
+            android:title="@string/bmi_calculator" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/login_icon"
+                    android:title="@string/Login" />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/profile_icon"
+                    android:title="@string/Profile" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/logout_icon"
+                    android:title="@string/Logout" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="Categories">
+        <menu>
+
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_therapy"
+                    android:icon="@drawable/flare_icon"
+                    android:title="@string/therapy" />
+                <item
+                    android:id="@+id/nav_disease_prediction"
+                    android:icon="@drawable/predict_icon"
+                    android:title="@string/predictions_disease" />
+                <item
+                    android:id="@+id/nav_disease_info"
+                    android:icon="@drawable/bolt_icon"
+                    android:title="@string/do_tell" />
+                <item
+                    android:id="@+id/nav_food_tip"
+                    android:icon="@drawable/tips_icon"
+                    android:title="@string/tips_food" />
+                <item
+                    android:id="@+id/nav_geomap"
+                    android:icon="@drawable/location_icon"
+                    android:title="@string/geo_map" />
+            </group>
+
+        </menu>
+    </item>
+
+    <item android:title="share">
+        <menu>
+
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/share_icon"
+                    android:title="@string/Share" />
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/rate_icon"
+                    android:title="@string/rate_us" />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1081787190845",
+    "project_id": "modernizedshapp",
+    "storage_bucket": "modernizedshapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081787190845:android:d350bd3bacd48d21762454",
+        "android_client_info": {
+          "package_name": "com.example.modernizedshapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081787190845-du15nrgthodmvakmeeu0om7lj7hon90s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm4-_PN62_ZT0Y8nKZkVQE1GLb4h_eUEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081787190845-du15nrgthodmvakmeeu0om7lj7hon90s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

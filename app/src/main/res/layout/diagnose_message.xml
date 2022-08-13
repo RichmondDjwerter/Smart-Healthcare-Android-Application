@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/doctor_border"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="15sp"
+            android:background="@android:color/transparent"
+            android:paddingTop="10dp"
+            android:text="@string/diagnosis"
+            android:textColor="@color/blue_dark"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/most_likely_conditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:background="@color/light_blue"
+            android:paddingTop="20dp"
+            android:text="@string/most_likely_condition"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/standard_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:background="@color/light_blue"
+            android:paddingTop="10dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/advanced_info_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginHorizontal="15sp"
+                android:background="@android:color/transparent"
+                android:elevation="2dp"
+                android:paddingTop="20dp"
+                android:text="@string/show_more"
+                android:textColor="@color/blue_dark" />
+
+            <Button
+                android:id="@+id/export_to_pdf_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginHorizontal="15sp"
+                android:background="@android:color/transparent"
+                android:onClick="onExportButtonClick"
+                android:paddingTop="20dp"
+                android:elevation="2dp"
+                android:text="@string/export_to_pdf"
+                android:textColor="@color/blue_dark" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/advanced_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:background="@color/light_blue"
+            android:paddingTop="10sp"
+            android:textSize="16sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>

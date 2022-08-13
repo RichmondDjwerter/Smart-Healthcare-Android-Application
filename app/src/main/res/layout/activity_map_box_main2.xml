@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctor.mapbox.MapBoxMainActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraZoom="12"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/BtnStartNavigation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:layout_weight="8"
+            android:background="@color/black"
+            android:enabled="false"
+            android:text="@string/Start_Navigation"
+            android:textAllCaps="true"
+            android:textColor="@color/white" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabLocationSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_margin="16dp"
+            android:layout_weight="2"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/search_icon"
+            android:tint="@color/white" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

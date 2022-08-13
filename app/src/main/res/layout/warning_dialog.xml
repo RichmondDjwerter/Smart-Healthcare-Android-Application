@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutForText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="35dp"
+        android:background="@drawable/dialog_background"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/warning_title"
+            android:textAlignment="center"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mainText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="45dp"
+            android:gravity="center"
+            android:text="@string/warning_message"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/ivWarning1"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_warn_with_shade" />
+
+    <ImageView
+        android:id="@+id/confirm_button"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@id/linearLayoutForText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-65dp"
+        android:src="@drawable/ic_checked" />
+
+</RelativeLayout>

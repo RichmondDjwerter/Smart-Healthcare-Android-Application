@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Home_background"
+    tools:context=".doctor.HealthNews.NewsDetailActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarnews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:elevation="8dp"
+                android:padding="15dp"
+                android:src="@drawable/back_icon" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:fontFamily="@font/adamina"
+                android:gravity="center"
+                android:text="@string/smart_health_newsstand"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/BtnReadNews"
+        android:layout_below="@+id/toolbarnews">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/idTVNews"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="3dp"
+                android:padding="3dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/TVTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTVNews"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="title"
+                android:textColor="@color/gold"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TVsubDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TVTitle"
+                android:layout_margin="4dp"
+                android:text="Sub Description"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TVContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TVsubDescription"
+                android:layout_margin="4dp"
+                android:padding="4dp"
+                android:text="content"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/BtnReadNews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/lavender"
+        android:backgroundTint="@color/lavender"
+        android:text="Click To Read Full News"
+        android:textAllCaps="true"
+        android:textColor="@color/black" />
+</RelativeLayout>

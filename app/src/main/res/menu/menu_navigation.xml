@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/buttom_nav_dashboard"
+        android:icon="@drawable/dashboard_icon"
+        android:title="Dashboard" />
+
+    <item
+        android:id="@+id/buttom_nav_home"
+        android:icon="@drawable/home_icon"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/buttom_nav_profle"
+        android:icon="@drawable/emergency_profile_icon"
+        android:title="Emergency" />
+</menu>

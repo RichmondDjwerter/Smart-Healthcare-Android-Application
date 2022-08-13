@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background_top">
+
+    <Button
+        android:id="@+id/backArrow"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/back_arrow"
+        android:onClick="backArrowOnClick" />
+
+    <ImageView
+        android:id="@+id/doctor"
+        android:layout_width="55sp"
+        android:layout_height="55sp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="9dp"
+        android:background="@android:color/transparent"
+        android:padding="2dp"
+        app:srcCompat="@drawable/doctor" />
+
+    <TextView
+        android:id="@+id/chat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/doctor"
+        android:background="@android:color/transparent"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/edoctor"
+        android:textSize="24sp" />
+
+</RelativeLayout>
+

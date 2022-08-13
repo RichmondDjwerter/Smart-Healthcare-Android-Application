@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".common.OnBoarding">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <Button
+        android:id="@+id/skip_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:padding="10dp"
+        android:text="@string/Skip_btn"
+        android:textColor="@color/black"
+        android:onClick="skip"
+        android:background="#00000000"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:drawableEnd="@drawable/skip_btn"
+        android:drawableRight="@drawable/skip_btn"/>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/getting_started"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Getting_started"
+            android:background="@color/baby_blue"
+            android:visibility="invisible"/>
+
+        <LinearLayout
+            android:id="@+id/dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:paddingBottom="20dp"
+            android:orientation="horizontal" />
+
+        <Button
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="#00000000"
+            android:onClick="next"
+            android:drawableEnd="@drawable/next_btn"
+            android:drawableRight="@drawable/next_btn" />
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

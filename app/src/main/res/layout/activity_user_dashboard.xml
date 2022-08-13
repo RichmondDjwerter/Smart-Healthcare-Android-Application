@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".doctor.UserDashboard"
+    android:id="@+id/fragment_container">
+
+    <TextView
+        android:id="@+id/UserDashboardText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Dashboard"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:fontFamily="@font/muli_extrabold"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/UserDashboardText"
+        android:text="textview"
+        android:textSize="16sp"
+        android:fontFamily="@font/adamina"
+        android:textStyle="bold"
+        android:padding="20dp"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttom_navigation"
+        app:itemBackground="@color/baby_blue"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu_navigation"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

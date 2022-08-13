@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.modernizedshapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/preview"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/preview"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ModernizedShapp">
+
+        <receiver android:name=".doctor.Diagnosis.helpers.Receiver" />
+
+        <activity android:name=".doctor.mapbox.MapBoxMainActivity" />
+        <activity android:name=".doctor.HealthNews.NewsDetailActivity" />
+        <activity android:name=".doctor.HealthNews.HealthMainActivity" />
+        <activity android:name=".doctor.Diagnosis.ChatActivity" />
+        <activity android:name=".doctor.Diagnosis.Menu" />
+        <activity android:name=".doctor.Diagnosis.SplashActivity" />
+        <activity android:name=".doctor.Location.MapsActivity" />
+        <activity android:name=".doctor.Location.LocationMainActivity" />
+        <activity android:name=".doctor.Location.ListHealthCenters" />
+        <activity android:name=".doctor.foodtip.SplashActivity" />
+        <activity android:name=".doctor.foodtip.DietplanActivity" />
+        <activity android:name=".doctor.foodtip.ResultActivity" />
+        <activity android:name=".doctor.foodtip.FMainScreen" />
+        <activity android:name=".doctor.therapy.TheTherapist" />
+        <activity android:name=".User.BMI_calculated" />
+        <activity android:name=".User.Bmi_calculator" />
+        <activity android:name=".User.Emergencies" />
+        <activity android:name=".doctor.UserDashboard" />
+        <activity android:name=".common.LoginSignup.ForgetPasswordSuccessMessage" />
+        <activity android:name=".common.LoginSignup.SetNewPassword" />
+        <activity android:name=".common.LoginSignup.MakeSelection" />
+        <activity android:name=".common.LoginSignup.Forget_Password" />
+        <activity android:name=".common.LoginSignup.VerifyOTP" />
+        <activity android:name=".common.LoginSignup.SignUp3rdClass" />
+        <activity android:name=".common.LoginSignup.SignUp2ndClass" />
+        <activity android:name=".common.LoginSignup.SignUp" />
+        <activity android:name=".common.LoginSignup.Login" />
+        <activity android:name=".common.LoginSignup.StartUpScreen" />
+        <activity android:name=".User.AllCategories" />
+        <activity android:name=".common.OnBoarding" />
+        <activity android:name=".User.Dashboard" />
+        <activity
+            android:name=".common.MainActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,215 @@
+<resources>
+    <string name="app_name">ModernizedShapp</string>
+    <string name="logo_name">Smart Heath care application</string>
+    <string name="logo_description">Your Personal Hospital</string>
+    <string name="short_app_name">S.H.APP</string>
+    <string name="non_empty_query">Query should not be empty</string>
+
+    <!-- On Boarding Screen -->
+    <string name="First_Slide_tittle">AI Therapist</string>
+    <string name="Second_Slide_tittle">Disease Prediction</string>
+    <string name="Third_Slide_tittle">Health Newsstand</string>
+    <string name="Fourth_Slide_tittle">Emergency Calls</string>
+    <string name="fifth_Slide_tittle">Sit Back and Enjoy</string>
+
+    <!-- Description -->
+    <string name="First_Slide_Desc">An artificial Intelligence to help support your mental health and help makes you whole</string>
+    <string name="Second_Slide_Desc">We Provide you with a portal to help diagnose anything wrong with you</string>
+    <string name="Third_Slide_Desc">This will provide you with health news and all science related news</string>
+    <string name="Fourth_Slide_Desc">Emergency numbers will be provided in case one needs an emergency contact</string>
+    <string name="fifth_Slide_Desc">A health care application in your pocket. Be comfortable and enjoy!</string>
+
+    <!-- Buttons -->
+    <string name="Skip_btn">Skip</string>
+    <string name="Next_btn">Next</string>
+    <string name="Getting_started">Let\'s Get Started</string>
+
+    <!-- Strings for Dashboard -->
+    <string name="AI_Therapy">Therapy</string>
+    <string name="Disease_Prediction">A Do Tell</string>
+    <string name="Disease_and_Allergy_info">Newsstand</string>
+    <string name="GeoMap">GeoMap</string>
+    <string name="Food_Tips">Tips</string>
+
+    <!-- Descriptions -->
+    <string name="Search_text">Search Location…</string>
+    <string name="Trends">All Featured trends</string>
+    <string name="Trends_desc">Conditions that are of high rates in the region are all featured here.</string>
+    <string name="Motivation">Motivational Quotes</string>
+    <string name="Categories">Categories</string>
+    <string name="view_all">View All</string>
+
+    <!-- Strings for Dashboard -->
+    <string name="home">HOME</string>
+    <string name="Search">SEARCH</string>
+    <string name="cart">ALL CATEGORIES</string>
+    <string name="update_dashboard">UPDATE DASHBOARD</string>
+    <string name="bmi_calculator">BMI CALCULATOR</string>
+    <string name="Login">Login</string>
+    <string name="Profile">Profile</string>
+    <string name="Logout">Logout</string>
+    <string name="therapy">AI Therapy</string>
+    <string name="do_tell">Health Newsstand</string>
+    <string name="predictions_disease">Disease Predictions</string>
+    <string name="geo_map">Geographical Map</string>
+    <string name="tips_food">Diet Plan</string>
+    <string name="Share">Share This Application</string>
+    <string name="rate_us">Rate this Application</string>
+
+    <!-- Strings for categories -->
+    <string name="Expand">Expand</string>
+
+    <!-- Strings for startUp -->
+    <string name="Sign_up">Sign Up</string>
+    <string name="create_account">Create Account</string>
+    <string name="how_we_work">How we work?</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password">Forgot Password</string>
+
+    <!-- Strings for login -->
+    <string name="enter_username">Enter Username</string>
+    <string name="login_password_">Password</string>
+
+    <!-- Strings for signUp -->
+    <string name="full_name">Full Name</string>
+    <string name="Email_add">Email Address</string>
+    <string name="phone_number_add">Phone Number</string>
+
+    <!-- Strings for OTP screen -->
+    <string name="otp_code_name">Code</string>
+    <string name="otp_verification_text">Verification</string>
+    <string name="otp_verification_desc">Enter Code Sent To The Number Entered</string>
+
+    <!-- Strings for forget_password screen -->
+    <string name="forget_pass_details">Provide The Number For The Account You Want A Password Reset On</string>
+    <string name="make_selection">Make Selection</string>
+    <string name="make_selection_detail">Select Which Contact Detail Should Be Used In The Process</string>
+    <string name="new_credentials">New Credentials</string>
+    <string name="new_credentials_details">Your Identity Has Been Verified!</string>
+    <string name="new_credentials_details2">Set Your New Password.</string>
+    <string name="success_message">Your Password Has Been Updated Successfully!</string>
+
+    <!-- Strings for signup3 screen -->
+    <string name="allergy_reaction">Allergy or Reactions</string>
+    <string name="medical_condition">Medical Conditions</string>
+    <string name="medical_notes">Medical Notes</string>
+    <string name="medications">Medications</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="blood_type">Blood Group</string>
+    <string name="emergency_contact">Emergency Contact</string>
+
+    <!--array for bloodroup-->
+    <string-array name="blood_groups">
+        <item>O+</item>
+        <item>O-</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--array for Diet Plan -->
+    <string name="_18_5_25_kg_m2">18.5 – 25 kg/m2</string>
+    <string name="normal_bmi_range">Normal BMI range:</string>
+    <string name="recalculate">Recalculate your BMI</string>
+    <string name="calculate">Calculate your BMI</string>
+    <string name="age">AGE</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="plus">plus</string>
+    <string name="minus">minus</string>
+    <string name="_120cm">120cm</string>
+    <string name="_50">50</string>
+    <string name="_19">19</string>
+    <string name="your_result">Your Result</string>
+    <string name="your_age">Your Age</string>
+    <string name="cm">cm</string>
+
+    <!--array for Disease Dictionary -->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="smart_health_newsstand">Smart Health Newsstand</string>
+
+    <!--array for Diagnosis Doctor -->
+    <string name="self_diagnosis" translatable="false">Self Diagnosis</string>
+    <string name="diagnosis_doctor">Diagnosis Doctor</string>
+    <string name="create_new_profile">Create new profile</string>
+    <string name="choose_profile">Choose profile</string>
+    <string name="let_s_diagnose">Diagnose</string>
+    <string name="edoctor">Doctor</string>
+    <string name="profile_name">Profile name:</string>
+    <string name="sex">Sex:</string>
+    <string name="birth_date">Birth date:</string>
+    <string name="yyyy_mm_dd" translatable="false">YYYY-MM-DD</string>
+    <string name="add">Add</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="type_your_symptoms">Type Your symptoms…</string>
+    <string name="is_first_run" translatable="false">isFirstRun</string>
+    <string name="update_string">Update</string>
+    <string name="choose_you_profile">Choose you profile</string>
+    <string name="reload" translatable="false">reload</string>
+    <string name="default_message_delete_me" translatable="false">I feel pain in my knee.</string>
+    <string name="app_description">Your disease self diagnosis chat app</string>
+    <string name="openChat" translatable="false">open_chat</string>
+    <string name="create_new_conversation">Create new conversation</string>
+    <string name="history">History</string>
+    <string name="error_messsage_response_doctor">Sorry, I was unable to understand your message, could you repeat it?</string>
+    <string name="finish">Finish</string>
+    <string name="how_can_i_help_you">\nHow can I help you today?</string>
+    <string name="hallo_only">Hello \u0020</string>
+    <string name="hello_with_exclamation_mark">Hello! \u0020</string>
+    <string name="input_can_not_be_empty">Input can not be empty.</string>
+    <string name="finish_diagnose_question">I believe I know your diagnose. \nDo you want to finish?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="is_new_user" translatable="false">is_new_user</string>
+    <string name="female_sign" translatable="false">F</string>
+    <string name="male_sign" translatable="false">M</string>
+    <string name="fill_all_inputs">Fill all the inputs</string>
+    <string name="permission_denied">Permission denied</string>
+    <string name="user_settings" translatable="false">user_settings</string>
+    <string name="user_id" translatable="false">user_id</string>
+    <string name="show_more">Show more</string>
+    <string name="show_less">Show less</string>
+    <string name="most_likely_condition">Your condition is most likely:</string>
+    <string name="export_to_pdf">EXPORT TO PDF</string>
+    <string name="name">Name: \u0020</string>
+    <string name="probability">Probability: \u0020</string>
+    <string name="exported_to_pdf_file">Exported to PDF file</string>
+    <string name="user">User: \u0020</string>
+    <string name="doctor">e-Doctor: \u0020</string>
+    <string name="doctor_your_diagnosis">Doctor: Your diagnosis: \u0020</string>
+    <string name="diagnose_with_white_space">Diagnose: </string>
+    <string name="symptoms">Symptoms: \u0020</string>
+    <string name="present">Present: \u0020</string>
+    <string name="absent">Absent: \u0020</string>
+    <string name="unknown">Unknown: \u0020</string>
+    <string name="notification_title">Is everything alright?</string>
+    <string name="notification_message">You didn\'t diagnose lately</string>
+    <string name="is_covid" translatable="false">is_covid</string>
+    <string name="select_all_statemenet_that_applay_to_you">Please select all statements that apply to you</string>
+    <string name="conversation">Conversation:</string>
+    <string name="warning_title">Be aware</string>
+    <string name="warning_message">The application can not replace a real doctor appointment</string>
+    <string name="warning_button">Confirm</string>
+    <string name="ok">OK</string>
+
+
+    <!--array for MapBox-->
+
+    <string name="access_token">add your mapbox access token here</string>
+    <string name="Start_Navigation">Start Navigation</string>
+    <string name="user_location_explanation">This application needs user location permissions to show its functionality</string>
+    <string name="user_location_no_granted">Grant Location Permission</string>
+    <string name="_66">66</string>
+    <string name="calculate_your_bmi">Calculate Your BMI</string>
+    <string name="diet_plan">Diet Plan</string>
+</resources>

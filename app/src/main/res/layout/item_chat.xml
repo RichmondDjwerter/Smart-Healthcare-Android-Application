@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/doctor_border"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/chatDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@color/light_blue"
+        android:text=""
+        android:textColor="@color/text_color"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/chatTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:background="@color/light_blue"
+        android:text=""
+        android:textColor="@color/text_color"
+        android:textSize="18sp" />
+
+</LinearLayout>
